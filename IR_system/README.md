@@ -1,4 +1,4 @@
-This folder contains the additional files required for Part 2 of the assignment, involving building a search engine application. Note that this code works for both Python 2 and Python 3. 
+This folder contains the additional files required for building a search engine application. Note that this code works for both Python 2 and Python 3. 
 
 The following files have been added:
 informationRetrieval.py and evaluation.py - Implement the corresponding tasks inside the functions in these files.
