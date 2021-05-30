@@ -12,6 +12,8 @@ To test your code, run main.py as before with the appropriate arguments.
 Usage: main.py [-custom] [-dataset DATASET FOLDER] [-out_folder OUTPUT FOLDER]
                [-segmenter SEGMENTER TYPE (naive|punkt)] [-tokenizer TOKENIZER TYPE (naive|ptb)] 
 
+NOTE: Naive method has been removed from the code
+
 When the -custom flag is passed, the system will take a query from the user as input. For example:
 > python main.py -custom
 > Enter query below
