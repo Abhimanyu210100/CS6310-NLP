@@ -217,34 +217,6 @@ class Evaluation():
         meanFscore=totalFscore/len(query_ids)
         return meanFscore
 
-    def queryNDCG(self, query_doc_IDs_ordered, query_id, true_doc_IDs, k):
-        """
-        Computation of nDCG of the Information Retrieval System
-        at given value of k for a single query
-
-        Parameters
-        ----------
-        arg1 : list
-                A list of integers denoting the IDs of documents in
-                their predicted order of relevance to a query
-        arg2 : int
-                The ID of the query in question
-        arg3 : list
-                The list of IDs of documents relevant to the query (ground truth)
-        arg4 : int
-                The k value
-
-        Returns
-        -------
-        float
-                The nDCG value as a number between 0 and 1
-        """
-
-        nDCG = -1
-
-        #Fill in code here
-        return nDCG
-
 
     def meanNDCG(self, doc_IDs_ordered, query_ids, qrels, k):
         """
